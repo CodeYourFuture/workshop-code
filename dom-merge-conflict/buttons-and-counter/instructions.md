@@ -20,7 +20,7 @@ Split the `header`, `main` into separate components from `app.js`.
 
 ### Tests
 
-There are three tests that are _not_ skipped (lines 18 - 36 ihn `app.test.js`), use these tests to check your changes still let the app function as expected.
+There are three tests that are _not_ skipped (lines 18 - 36 in `app.test.js`), use these tests to check your changes still let the app function as expected.
 
 ### Result
 
