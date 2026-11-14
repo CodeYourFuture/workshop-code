@@ -17,7 +17,7 @@ describe("button and counter", () => {
 
   test("contains description paragraph with mention of 'increment' in header", () => {
     expect(
-      container.querySelector("header").querySelector("p")
+      container.querySelector("header").querySelector("p"),
     ).toHaveTextContent(/increment/i);
   });
 
@@ -49,7 +49,7 @@ describe("button and counter", () => {
 
     test("contains description paragraph with mention of 'decrement' in header", () => {
       expect(
-        container.querySelector("header").querySelector("p")
+        container.querySelector("header").querySelector("p"),
       ).toHaveTextContent(/decrement/i);
     });
   });
