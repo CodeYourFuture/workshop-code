@@ -1,4 +1,5 @@
 ﻿using System.Net;
+using System.Net.Sockets;
 
 class DnsResolver
 {
@@ -33,9 +34,9 @@ class DnsResolver
                 Console.WriteLine(addr);
             }
         }
-        catch
+        catch (SocketException e)
         {
-            Console.Error.WriteLine("Failed to resolve to IP");
+            Console.Error.WriteLine($"Failed to resolve to IP - Connection Problem: {e.Message}");
         }
     }
 }
